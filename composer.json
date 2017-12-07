@@ -1,0 +1,11 @@
+{
+    "scripts":{
+      "run":"php -S localhost:8000 -t ./web"
+    },
+    "autoload":{
+        "Itb\\":"src"
+    },
+    "require": {
+        "twig/twig": "^2.4"
+    }
+}

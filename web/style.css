@@ -1,0 +1,134 @@
+body,
+
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: helvetica, serif;
+}
+
+nav {
+
+}
+
+ul {
+    display: inline-block;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    padding-top: 8px;
+    padding-bottom: 3px;
+    border: 0;
+    border-radius: 4px;
+    display: block;
+    background-color: firebrick ;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+#header{
+    text-align: center;
+
+}
+p{
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+div {
+
+}
+
+#column_container{
+    display: flex;
+}
+
+#fixed{
+    width: 20rem;
+    height: auto;
+    border: 1px solid red;
+    background-color: lemonchiffon;
+    border-radius: 6px;
+
+}
+
+#flex{
+    flex:1 0 200px;
+    border: 1px solid firebrick;
+    background-color: lemonchiffon;
+    border-radius: 6px;
+}
+
+#flex1{
+
+
+    flex:1 0 200px;
+    border: 1px solid firebrick;
+    background-color: lemonchiffon;
+    border-radius: 6px;
+}
+
+
+.column {
+    flex: auto;
+    display: block;
+    width: 50%;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left:2px;
+    margin-right:2px;
+    background-color: antiquewhite ;
+}
+
+header section {
+    flex:1;
+}
+
+.left{
+    float: left;
+    width: 100px;
+
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    height: 15px;
+    width: 100%;
+
+}
