@@ -19,16 +19,22 @@ class WebApplication
     {
         $action = filter_input(INPUT_GET, 'action');
 
-//        print 'action = ' . $action;
-//        die();
 
         switch ($action) {
-            case 'about':
-                $this->mainController->aboutAction();
+            case 'restartSession':
+                $this->mainController->forgetSession();
                 break;
 
             case 'summary':
                 $this->mainController->summaryAction();
+                break;
+
+            case 'people':
+                $this->mainController->peopleAction();
+                break;
+
+            case 'news':
+                $this->mainController->newsAction();
                 break;
 
             case 'info':
@@ -39,22 +45,40 @@ class WebApplication
                 $this->mainController->contactAction();
                 break;
 
-            case 'news':
-                $this->mainController->newsAction();
+            case 'about':
+                $this->mainController->aboutAction();
                 break;
 
-            case 'people':
-                $this->mainController->peopleAction();
+            case 'logout':
+                $this->mainController->logoutAction();
                 break;
 
+            case 'processLogin':
+                $this->mainController->processLoginAction();
+                break;
 
+            case 'login':
+                $this->mainController->loginAction();
+                break;
+
+            case 'setBackgroundColorPink':
+                $this->mainController->changeBackgroundColor('pink');
+                break;
+
+            case 'setBackgroundColorYellow':
+                $this->mainController->changeBackgroundColor('yellow');
+                break;
+
+            case 'newHit':
+                $this->mainController->newHit();
+                break;
 
             case 'home':
             default:
                 $this->mainController->homeAction();
+
+
         }
     }
-
-
 
 }

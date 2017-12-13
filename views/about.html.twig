@@ -1,13 +1,19 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>MGW -  {{ pageTitle }} page</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
 <div id="header">
-    <h1>Real Monsters Book</h1>
+    <h1>Abouts Page</h1>
+    
+
 </div>
 
 <div id="nav">
@@ -22,8 +28,64 @@
     </ul>
 </div>
 
-<p>This page is covering the book Real Monsters by Liam Brown</p>
+<div id="section">
+<?php
+//--------------------------------
+require_once 'home.php';
+//--------------------------------
+?>
 
+<form
+        action="/?action=processLogin"
+        method="post"
+        >
+</form>
+
+
+
+</div>
+
+
+
+
+
+
+<! -----------------------Left Section---------------->
+<div id="aside">
+    <h1>Login Details</h1>
+    <p>
+    <form>
+
+        <fieldset>
+            <legend>Login Details</legend>
+
+            username: <input type="text" name="username"><br><br>
+
+
+
+            password: <input type="password" name="password"><br><br>
+
+            <input type="submit" value="login">
+        </fieldset>
+
+
+    </form>
+    </p>
+
+</div>
+<! -----------------------Main Section---------------->
+<div id="section">
+    <h1>About the Story</h1>
+   <p> The outfit that danny wears  is destroyed in the desert after a violent attack, About a few could only survive the attack.
+    When they where about to find prosperity, they find out that they should be afraid of themselves before the threats they were warned about.
+       </p>
+
+
+</div>
+
+<div id="rightSide">
+    <img src="images/grass.jpg" width="150" height="150">
+</div>
 <div id="footer">
     Footer of the page
 </div>

@@ -6,7 +6,7 @@ namespace Itb;
 
 class DatabaseSqlite
 {
-    const DB_NAME = 'week7';
+    const DB_NAME = 'itb';
     const DB_PATH = __DIR__ . '/../data';
 
     // the private connection property

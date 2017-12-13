@@ -5,9 +5,9 @@ namespace Itb;
 
 class Database
 {
-    const DB_NAME = 'week7';
-    const DB_USER = 'root';
-    const DB_PASS = 'pass';
+    const DB_NAME = 'itb';
+    const DB_USER = 'sam';
+    const DB_PASS = 'ade';
     const DB_HOST = 'localhost:3306';
 
     // the private connection property

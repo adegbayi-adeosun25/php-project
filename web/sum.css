@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+#wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav
+{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#aside {
+    line-height: 30px;
+    background-color: crimson;
+    width: 30%;
+    float: left;
+
+    padding-left: 5px;
+}
+#section {
+    line-height: 30px;
+    width: 40%;
+    float: left;
+    padding-left: 10px;
+    background-color: sandybrown;
+}
+#rightSide
+{
+    width: 20%;
+    float:right;
+    padding-top: 50px;
+
+}
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}

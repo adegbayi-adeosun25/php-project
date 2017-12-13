@@ -1,0 +1,50 @@
+
+
+.one, .two, .three{
+    width: 280px;
+    float: left;
+    margin: 8px;
+    border: 1px dotted brown;
+}
+
+header{
+    text-align: center;
+    color: #875721
+}
+
+
+#last{
+    border-right: 3px solid black;
+
+}
+
+
+section, footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color:firebrick ;
+}
+
+section a{
+    text-decoration: none;
+    color: #875721;
+}
+
+
+footer{
+    clear: both;
+}
+
+.pic{
+    width: 220px;
+    height: 125px;
+}
+
+#current{
+    background-color: #BDBDBD;
+    color: purple;
+    font-weight: bold;
+}
+
+

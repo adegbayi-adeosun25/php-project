@@ -1,0 +1,21 @@
+body,
+#wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend{
+    color:black;
+    padding: 0.2em 0.5em;
+}
+
+fieldset{
+    text-align: center;
+    border:1px solid black;
+    width: 40%;
+    height: 250px;
+    background-color: floralwhite;
+}
+
+

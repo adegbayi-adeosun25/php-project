@@ -8,19 +8,15 @@ body{
     font-family: helvetica, serif;
 }
 
-nav {
-
-}
-
 ul {
-    display: inline-block;
-    list-style-type:none;
+    list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 2px;
     overflow: hidden;
-    border: none;
-    background-color: antiquewhite;
-    text-align: center;
+    background-color: black;
+    display: inline-block;
+    border: 0;
+    border-radius: 4px;
 
 }
 
@@ -30,7 +26,7 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,11 +35,11 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     padding-top: 8px;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
     border: 0;
     border-radius: 4px;
     display: block;
-    background-color: firebrick ;
+    background-color: firebrick;
 }
 
 body{
@@ -124,11 +120,13 @@ header section {
 #footer {
     position: absolute;
     bottom: 0;
+    width: 100%;
     background-color: black;
     color: white;
     clear: both;
     text-align: center;
-    height: 15px;
-    width: 100%;
-
+    padding: 5px;
 }
+
+
+
